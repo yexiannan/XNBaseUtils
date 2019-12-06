@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XNBaseUtils_Example' do
+  pod 'XNBaseUtils', :path => '../'
+
+  target 'XNBaseUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
