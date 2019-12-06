@@ -73,5 +73,6 @@ _Pragma("clang diagnostic pop")
 //取消ScrollView布局自动缩进
 #define AdjustsScrollViewInsetNever(controller,view) if(@available(iOS 11.0, *)) {view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;} else if([controller isKindOfClass:[UIViewController class]]) {controller.automaticallyAdjustsScrollViewInsets = false;}
 
+
 #endif /* XNMacro_h */
 
