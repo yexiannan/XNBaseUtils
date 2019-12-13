@@ -18,7 +18,7 @@ NewShortString="$(($shortString + 1))"
 newVersionString=${oldVersionString/"'${mainString}.${subString}.${shortString}'"/"'${mainString}.${subString}.${NewShortString}'"}
 
 
-sed -i "" "s/${oldVersionString}/${newVersionString}/g" $(dirname "${BASH_SOURCE[0]}")/XNUtils.podspec
+sed -i "" "s/${oldVersionString}/${newVersionString}/g" $(dirname "${BASH_SOURCE[0]}")/XNBaseUtils.podspec
 
 echo "oldVersion is ${oldVersionString},newVersion is ${newVersionString}"
 
