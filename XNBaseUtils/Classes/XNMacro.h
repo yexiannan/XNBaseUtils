@@ -69,7 +69,7 @@ _Pragma("clang diagnostic pop")
 //以375为基准按比例缩放,并向下取整
 #define Ratio_375_Scale(width) (floor(width * SCREEN_WIDTH / 375.f))
 //以375为基准 当前设备屏幕宽度低于375才按比例缩放,并向下取整
-#define Ratio_less375_Scale(float) (SCREEN_WIDTH < 375 ? floor(width * SCREEN_WIDTH / 375.f) : width)
+#define Ratio_less375_Scale(width) (SCREEN_WIDTH < 375 ? floor(width * SCREEN_WIDTH / 375.f) : width)
 //取消ScrollView布局自动缩进
 #define AdjustsScrollViewInsetNever(controller,view) if(@available(iOS 11.0, *)) {view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;} else if([controller isKindOfClass:[UIViewController class]]) {controller.automaticallyAdjustsScrollViewInsets = false;}
 
