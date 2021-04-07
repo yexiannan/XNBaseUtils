@@ -95,4 +95,9 @@
     return YES;
 }
 
++ (NSArray *)arraySafe:(id)array {
+    if ([self arrayIsNull:array]) { return @[]; }
+    else { return array; }
+}
+
 @end

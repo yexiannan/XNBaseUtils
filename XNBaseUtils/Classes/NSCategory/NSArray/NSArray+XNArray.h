@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSArray (XNArray)
 + (BOOL)arrayIsNull:(id)array;
-
++ (NSArray *)arraySafe:(id)array;
 @end
 
 NS_ASSUME_NONNULL_END
