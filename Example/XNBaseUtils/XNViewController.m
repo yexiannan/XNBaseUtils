@@ -7,6 +7,7 @@
 //
 
 #import "XNViewController.h"
+#import "XNBaseUtils.h"
 
 @interface XNViewController ()
 @property (nonatomic, strong) UILabel *label;
@@ -35,6 +36,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"---adsa");
+
 }
 
 - (CGSize)getSizeWithString:(NSString *)aStr withFont:(UIFont *)font LimitWidth:(CGFloat)aLimitWidth{

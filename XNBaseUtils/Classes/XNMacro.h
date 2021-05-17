@@ -11,7 +11,7 @@
 
 //---------------------------Log打印时间戳与日志所在文件位置---------------------------
 #ifdef DEBUG
-#define NSLog(...) printf("\n [Date:%f]\n [Function:%s]\n [Line:%d]\n %s\n",[[NSDate date]timeIntervalSince1970], __FUNCTION__, __LINE__,[[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#define NSLog(...) printf("\n [Date:%s]\n [Function:%s]\n [Line:%d]\n %s\n",[[[NSDate date] stringWithFormat:@"yyyy-MM-dd HH:mm:ss.SSS"] UTF8String], __FUNCTION__, __LINE__,[[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
 #else
 #define NSLog(format, ...)
 #endif

@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = yexiannan;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = JYYMT6B5Q2;
+						DevelopmentTeam = 55LGJ3789H;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -497,7 +497,7 @@
 			baseConfigurationReference = 44736BF07891AD990DA344E7 /* Pods-XNBaseUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JYYMT6B5Q2;
+				DEVELOPMENT_TEAM = 55LGJ3789H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XNBaseUtils/XNBaseUtils-Prefix.pch";
 				INFOPLIST_FILE = "XNBaseUtils/XNBaseUtils-Info.plist";
@@ -515,7 +515,7 @@
 			baseConfigurationReference = 5357330B57EACA843F2C0DCD /* Pods-XNBaseUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JYYMT6B5Q2;
+				DEVELOPMENT_TEAM = 55LGJ3789H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XNBaseUtils/XNBaseUtils-Prefix.pch";
 				INFOPLIST_FILE = "XNBaseUtils/XNBaseUtils-Info.plist";
