@@ -221,6 +221,16 @@ NS_ASSUME_NONNULL_BEGIN
  获取当前时间本年的结束间
  */
 - (NSDate *)dateAtEndOfYear;
+/**
+ 获取当前时间本周的开始时间
+ */
+- (NSDate *)dateAtStartOfWeek;
+/**
+ 获取当前时间本周的结束间
+ */
+- (NSDate *)dateAtEndOfWeek;
+
+
 
 #pragma mark - 判断时间差
 /*
