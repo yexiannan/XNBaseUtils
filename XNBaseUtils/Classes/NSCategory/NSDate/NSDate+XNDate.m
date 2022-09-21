@@ -401,8 +401,7 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
 - (NSDate *)dateAtStartOfWeek {
     
     NSDateComponents *components = [[NSCalendar sharedCalendar] components:componentFlags fromDate:self];
-    components.month = 1;
-    components.day = 1;
+    components.day = ([components day] - ([components weekday] - 1));
     components.hour = 0;
     components.minute = 0;
     components.second = 0;
@@ -412,15 +411,13 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
 - (NSDate *)dateAtEndOfWeek {
     
     NSDateComponents *components = [[NSCalendar sharedCalendar] components:componentFlags fromDate:self];
-    components.month = 12;
-    components.day = 31;
+    components.day = ([components day] + (7 - [components weekday]));
     components.hour = 23;
     components.minute = 59;
     components.second = 59;
     return [[NSCalendar sharedCalendar] dateFromComponents:components];
     
 }
-
 
 #pragma mark - 判断时间差
 - (NSInteger)secondsAfterDate:(NSDate*)aDate {

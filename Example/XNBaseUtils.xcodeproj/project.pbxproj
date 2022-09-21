@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83B4FDB4574CE827E10EEF76 /* Pods-XNBaseUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNBaseUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XNBaseUtils_Tests/Pods-XNBaseUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9363019B1543BA8F7DA46FF7 /* XNBaseUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XNBaseUtils.podspec; path = ../XNBaseUtils.podspec; sourceTree = "<group>"; };
+		9363019B1543BA8F7DA46FF7 /* XNBaseUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XNBaseUtils.podspec; path = ../XNBaseUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E13DB62968D8EA7CFD769A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
